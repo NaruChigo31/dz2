@@ -17,6 +17,3 @@ function createElem(tag, properties = [], styles = [], parentElem){
 
 createElem("input", [["innerHTML", "Lorem ipsum"],["placeholder","pizza"]], [["fontSize", "18px"],["color","red"]], ".coolDiv");
 
-let a = document.querySelector(input)
-
-console.log(a)
